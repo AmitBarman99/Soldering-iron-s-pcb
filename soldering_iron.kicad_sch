@@ -2371,7 +2371,7 @@
     (property "Value" "VIBRATOR" (id 1) (at 273.685 116.2049 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (id 2) (at 271.78 113.665 0)
+    (property "Footprint" "Connector:Banana_Jack_2Pin" (id 2) (at 271.78 113.665 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 271.78 113.665 0)
@@ -2475,7 +2475,7 @@
     (uuid 5207b551-fedd-4955-9c18-eea2162cea82)
     (property "Reference" "SW2" (id 0) (at 198.12 106.68 0))
     (property "Value" "SW_Push" (id 1) (at 198.12 109.22 0))
-    (property "Footprint" "" (id 2) (at 198.12 109.22 0)
+    (property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" (id 2) (at 198.12 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 198.12 109.22 0)
@@ -2810,7 +2810,7 @@
     (uuid b7d633b1-9984-4680-89c4-ee6032cb59ba)
     (property "Reference" "P1" (id 0) (at 140.335 146.05 0))
     (property "Value" "Plug" (id 1) (at 140.97 147.955 0))
-    (property "Footprint" "" (id 2) (at 136.525 147.32 0)
+    (property "Footprint" "Connector:Banana_Jack_2Pin" (id 2) (at 136.525 147.32 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 136.525 147.32 0)
@@ -3088,7 +3088,7 @@
     (uuid f78108b4-edef-4259-81ef-b242f7e55a74)
     (property "Reference" "SW1" (id 0) (at 197.485 120.65 0))
     (property "Value" "SW_Push" (id 1) (at 197.485 123.19 0))
-    (property "Footprint" "" (id 2) (at 197.485 123.19 0)
+    (property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB" (id 2) (at 197.485 123.19 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 197.485 123.19 0)
@@ -3195,10 +3195,10 @@
       (reference "J2") (unit 1) (value "PORT") (footprint "Connector_Hirose:Hirose_DF13-05P-1.25DS_1x05_P1.25mm_Horizontal")
     )
     (path "/209f41bc-f707-4dab-a5ba-398a64e1e109"
-      (reference "J3") (unit 1) (value "VIBRATOR") (footprint "")
+      (reference "J3") (unit 1) (value "VIBRATOR") (footprint "Connector:Banana_Jack_2Pin")
     )
     (path "/b7d633b1-9984-4680-89c4-ee6032cb59ba"
-      (reference "P1") (unit 1) (value "Plug") (footprint "")
+      (reference "P1") (unit 1) (value "Plug") (footprint "Connector:Banana_Jack_2Pin")
     )
     (path "/ba3bb3ff-9a2f-4de5-ba97-3a9491ea9505"
       (reference "Q1") (unit 1) (value "2SC1945") (footprint "Package_TO_SOT_THT:TO-220-3_Vertical")
@@ -3237,10 +3237,10 @@
       (reference "R10") (unit 1) (value "10K") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
     )
     (path "/f78108b4-edef-4259-81ef-b242f7e55a74"
-      (reference "SW1") (unit 1) (value "SW_Push") (footprint "")
+      (reference "SW1") (unit 1) (value "SW_Push") (footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB")
     )
     (path "/5207b551-fedd-4955-9c18-eea2162cea82"
-      (reference "SW2") (unit 1) (value "SW_Push") (footprint "")
+      (reference "SW2") (unit 1) (value "SW_Push") (footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB")
     )
     (path "/658cbe5a-e7f5-4f80-bc14-54c2ecfeca7c"
       (reference "U1") (unit 1) (value "ATmega328P-A") (footprint "Package_QFP:TQFP-32_7x7mm_P0.8mm")
