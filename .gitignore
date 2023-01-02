@@ -2,3 +2,4 @@ soldering_iron-backups/
 #auto_saved_files#
 *.kicad_prl
 sch_1.png
+fp-info-cache
